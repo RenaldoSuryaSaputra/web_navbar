@@ -1,0 +1,67 @@
+* {
+   padding: 0;
+   margin: 0;
+   font-family: "Roboto", sans-serif;
+}
+
+.container {
+
+}
+
+.wrapper {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 100%;
+   height: 100px;
+   background-color: black;
+   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.785) ;
+}
+
+.brand {
+   display: flex;
+   flex-direction: row; /* format bawaan flex itu coloum */
+   padding: 20px;
+}
+
+.first-br {
+   color: crimson;
+   font-size: 1.5em;
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+.last-br {
+   padding-left: 3px;
+   color: white;
+   font-size: 1.5em;
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+.link-bar {
+   display: flex;
+   padding: 20px;
+   justify-content: center;
+   align-items: center;
+   color: crimson;
+   font-size: 1.2em;
+   font-weight: bolder;
+}
+
+.link-bar li {
+   list-style: none;
+   padding: 15px;
+}
+
+.link-bar li a {
+   text-decoration: none;
+   text-transform: uppercase;
+   color: white;
+}
+
+.link-bar>li>a:hover {
+   transition: all .5s ease-in-out;
+   color: crimson;
+}
+
